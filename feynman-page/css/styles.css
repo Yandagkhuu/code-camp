@@ -71,6 +71,7 @@ body {
     margin-top: 30px;
     margin-bottom: 20px;
     overflow: hidden;
+    height: 850px;
 
 }
 
@@ -123,24 +124,11 @@ body {
     padding: 30px;
 }
 
-@media (min-width: 1200px) {
-  
-#column-1, #column-2, #column-3 {
-    height: 800px;
-    } 
-}         
-
-/********** Desktop: Large devices only **********/
-@media (min-width: 992px) and (max-width: 1199) {
-  #column-1, #column-2, #column-3 {
-    height: 1000px;
-    }  
-}
 
 /********** Tablet: Medium devices only **********/
 @media  (max-width: 991px) {
   #column-1, #column-2, #column-3 {
-    height: auto;
+    height: 550px;
     }  
 }
 
